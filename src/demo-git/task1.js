@@ -21,3 +21,4 @@ const mergedCommit = {
 
 console.log("🎯 Commit mới đã gộp:");
 console.log(mergedCommit);
+//task1 comment
