@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import Button from './components/Button';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Button />
     </div>
   );
 }

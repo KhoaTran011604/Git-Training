@@ -21,6 +21,7 @@ export default [
       globals: {
         document: 'readonly',
         window: 'readonly',
+        console: 'readonly',
       },
     },
     plugins: {
@@ -37,6 +38,7 @@ export default [
 
       // Prettier
       'prettier/prettier': 'error',
+      'no-unused-vars': 'off', // 👈 Tắt hoàn toàn
     },
     settings: {
       react: {
