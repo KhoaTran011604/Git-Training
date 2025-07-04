@@ -12,6 +12,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Button />
     </div>
   );
 }
